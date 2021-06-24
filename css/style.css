@@ -1,0 +1,17 @@
+/* GENERICS */
+main {
+    padding-top: 50px;
+}
+
+/* BACKGROUND COLOR  */
+.bg-dark-blue {
+    background-color: rgb(22, 28, 59);
+}
+
+.bg-grey {
+    background-color: rgb(190, 188, 187);
+}
+
+.bg-orange {
+    background-color:rgb(205, 61, 15);
+}
