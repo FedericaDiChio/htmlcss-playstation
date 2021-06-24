@@ -12,6 +12,10 @@ main {
     background-color: rgb(190, 188, 187);
 }
 
+.bg-dark-grey {
+    background-color: rgb(31, 31, 31);
+}
+
 .bg-orange {
     background-color:rgb(205, 61, 15);
 }
@@ -34,6 +38,20 @@ main {
 }
 
 /* IMG WIDTH  */
-#games-thumbs img {
+.b-radius {
      border-radius: 15px;
 }
+
+
+/*! SEZIONI URGENTI DA SISTEMARE */
+/* 
+1. Jumbo-three -> container;
+2. Jumbo-four  -> container;
+3. Release -> container!!;
+4. Accessories PS4 -> non devono stare sulla stessa linea
+5. Nav black 
+6. Social media -> troppo spazio; 
+*/
+
+
+
