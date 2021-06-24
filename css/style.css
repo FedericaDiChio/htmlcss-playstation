@@ -15,3 +15,25 @@ main {
 .bg-orange {
     background-color:rgb(205, 61, 15);
 }
+
+
+/* JUMBOTRON  */
+.jumbotron {
+    min-height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#jumbo-one {
+    background-image: url("../img/jumbo-bg.png");
+}
+
+#jumbo-two {
+    background-image:url("../img/it-takes-two-hero-banner-desktop.jpg");
+}
+
+/* IMG WIDTH  */
+#games-thumb img {
+     border-radius: 15px;
+}
