@@ -24,10 +24,12 @@ main {
     background-color:rgb(205, 61, 15);
 }
 
+.my-container {
+    padding-top: 100px;
+}
 
 /* JUMBOTRON  */
 .jumbotron {
-    min-height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -62,3 +64,11 @@ footer {
     background-color: aqua;
 }
 
+/* .my-container {
+    position: relative;
+}
+
+.my-row {
+    position: absolute;
+    bottom: 0;
+} */
