@@ -1,9 +1,13 @@
 /* GENERICS */
 main {
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 /* BACKGROUND COLOR  */
+.bg-black {
+    background-color: black;
+}
+
 .bg-dark-blue {
     background-color: rgb(22, 28, 59);
 }
@@ -53,9 +57,14 @@ main {
 
 
 
-
-
 footer {
     height: 300px;
     background-color: aqua;
+}
+
+#nav-top {
+    position: relative;
+    z-index: 1;
+    height: 40px;
+    background-color: royalblue;
 }
