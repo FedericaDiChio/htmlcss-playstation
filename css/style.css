@@ -1,4 +1,8 @@
 /* GENERICS */
+body {
+    font-weight: 600;
+}
+
 main {
     padding-top: 90px;
 }
@@ -24,8 +28,25 @@ main {
     background-color:rgb(205, 61, 15);
 }
 
-.my-container {
-    padding-top: 100px;
+.my-pt {
+    padding-top: 200px;
+}
+
+/* NAVBAR */
+#nav-bottom a{
+    color: black;
+}
+
+#nav-bottom a:hover {
+    color: blue;
+}
+
+
+/* BUTTONS  */
+.my-btn-grey:hover {
+    border: 2px solid white;
+    background-color: rgba(31, 31, 31, 0.5);
+    box-shadow: 0 0 0 2px rgba(31, 31, 31, 0.5);
 }
 
 /* JUMBOTRON  */
@@ -52,9 +73,9 @@ main {
 
 /*! SEZIONI URGENTI DA SISTEMARE */
 /* 
-1. NAV-BAR TOP
+1. Blu chevron;
+2. rivedere BUTTON (scritta dentro centrata!!);
 4. Accessories PS4 -> non devono stare sulla stessa linea
-6. Social media -> troppo spazio; 
 */
 
 
@@ -64,11 +85,3 @@ footer {
     background-color: aqua;
 }
 
-/* .my-container {
-    position: relative;
-}
-
-.my-row {
-    position: absolute;
-    bottom: 0;
-} */

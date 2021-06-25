@@ -12,42 +12,78 @@
 <body>
     <!-- HEADER  -->
     <header class="fixed-top"> 
-        <nav class="navbar navbar-dark bg-black">
+        <!-- NAVBAR BLACK  -->
+        <nav class="navbar bg-black">
             <div class="container-fluid justify-content-end">
               <a href="#">
-                <img src="./img/sony_logo.svg" alt="" width="80">
+                <img src="./img/sony_logo.svg" alt="logo-sony" width="80">
               </a>
             </div>
           </nav>
-
-        <nav id="nav-bottom" class="navbar navbar-expand-md navbar-light bg-light">
+        <!-- NAVBAR WHITE  -->
+        <nav id="nav-bottom" class="navbar navbar-expand-md bg-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Fixed navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                  </li>
-                </ul>
-                <form class="d-flex">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
+                <a class="me-3" href="#">
+                    <img src="./img/play_logo.svg" alt="logo-play">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item me-2">
+                            <a class="nav-link" href="#">
+                                <span>Giochi</span>
+                                <img src="./img/chevron-down-solid.svg" alt="arrow-menu" width="10px">
+                            </a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a class="nav-link" href="#">
+                                <span>Hardware</span>
+                                <img src="./img/chevron-down-solid.svg" alt="arrow-menu" width="10px">
+                            </a>    
+                        </li>
+                        <li class="nav-item me-2">
+                            <a class="nav-link" href="#">
+                                <span>Servizi</span>
+                                <img src="./img/chevron-down-solid.svg" alt="arrow-menu" width="10px">
+                            </a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a class="nav-link" href="#">
+                                <span>Novità</span>
+                                <img src="./img/chevron-down-solid.svg" alt="arrow-menu" width="10px">
+                            </a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a class="nav-link" href="#">
+                                <span>Fai acquisti</span>
+                                <img src="./img/chevron-down-solid.svg" alt="arrow-menu" width="10px">
+                            </a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a class="nav-link" href="#">
+                                <span>Supporto</span>
+                                <img src="./img/chevron-down-solid.svg" alt="arrow-menu" width="10px" class="cosetti" >
+                            </a>
+                        </li>
+                    </ul>
+                    <form class="d-flex align-items-center">
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item me-2">
+                                <a class="nav-link" href="#">
+                                    <span>My PlayStation</span>
+                                    <img src="./img/chevron-down-solid.svg" alt="arrow-menu" width="10px">
+                                </a>                                
+                            </li>
+                        </ul>    
+                        <button class="btn btn-dark rounded-pill me-4 my-btn-grey" type="submit">Accedi</button>
+                        <a href=""><img src="./img/lens.svg" alt="search" width="30px" class="me-2"></a>
+                    </form>
+                </div>
             </div>
         </nav>
     </header>
     <main>
         <!-- JUMBO-ONE  -->
-        <section id="jumbo-one" class="jumbotron my-container">
+        <section id="jumbo-one" class="jumbotron my-pt">
             <div class="container my-container">
                 <div class="row text-white py-5">
                     <div class="col-lg-4">
@@ -104,13 +140,15 @@
                 </div>
             </div>
             <!-- PS5 ACCESSORIES -->
-            <div class="row flex-wrap">            
-                <img src="./img/playstation-5-thumb.png" alt="ps5-img" class="img-fluid">
-                <img src="./img/joypad-thumb.png" alt="joypad" class="img-fluid">
-                <img src="./img/headset-thumb.png" alt="headset" class="img-fluid">
-                <img src="./img/remote-thumb.png" alt="remote" class="img-fluid">           
-                <img src="./img/camera-thumb.jpg" alt="camera" class="img-fluid">
-            </div>
+            <!-- <div class="row flex-wrap">
+                <div class="col">
+                    <img src="./img/playstation-5-thumb.png" alt="ps5-img" class="img-fluid">
+                    <img src="./img/joypad-thumb.png" alt="joypad" class="img-fluid">
+                    <img src="./img/headset-thumb.png" alt="headset" class="img-fluid">               
+                    <img src="./img/remote-thumb.png" alt="remote" class="img-fluid">                
+                    <img src="./img/camera-thumb.jpg" alt="camera" class="img-fluid">
+                </div>
+            </div> -->
         </section>
         <!-- JUMBO-TWO -->
         <section id="jumbo-two" class="jumbotron d-flex align-items-end">
@@ -302,6 +340,16 @@
         </section>
     </main>
     <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./img/ps-footer.svg" alt="">
+                    <p>Countryyyyyy</p>
+                </div>
+            </div>
+        </div>
+    </footer>
     
 </body>
 </html>
