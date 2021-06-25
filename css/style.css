@@ -45,9 +45,7 @@ main {
 
 /*! SEZIONI URGENTI DA SISTEMARE */
 /* 
-1. Jumbo-three -> container;
-2. Jumbo-four  -> container;
-3. Release -> container!!;
+
 4. Accessories PS4 -> non devono stare sulla stessa linea
 5. Nav black 
 6. Social media -> troppo spazio; 
@@ -55,3 +53,9 @@ main {
 
 
 
+
+
+footer {
+    height: 300px;
+    background-color: aqua;
+}
