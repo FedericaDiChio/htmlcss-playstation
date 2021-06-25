@@ -1,6 +1,6 @@
 /* GENERICS */
 main {
-    padding-top: 100px;
+    padding-top: 90px;
 }
 
 /* BACKGROUND COLOR  */
@@ -51,7 +51,6 @@ main {
 /* 
 
 4. Accessories PS4 -> non devono stare sulla stessa linea
-5. Nav black 
 6. Social media -> troppo spazio; 
 */
 
@@ -62,9 +61,3 @@ footer {
     background-color: aqua;
 }
 
-#nav-top {
-    position: relative;
-    z-index: 1;
-    height: 40px;
-    background-color: royalblue;
-}
