@@ -4,7 +4,7 @@ body {
 }
 
 main {
-    padding-top: 90px;
+    padding-top: 100px;
 }
 
 /* BACKGROUND COLOR  */
@@ -41,12 +41,16 @@ main {
     color: blue;
 }
 
-
 /* BUTTONS  */
 .my-btn-grey:hover {
-    border: 2px solid white;
+    border: 1px solid white;
     background-color: rgba(31, 31, 31, 0.5);
     box-shadow: 0 0 0 2px rgba(31, 31, 31, 0.5);
+}
+
+.my-btn-orange:hover {
+    border: 1px solid black;
+    box-shadow: 0 0 0 2px rgb(205, 61, 15);
 }
 
 /* JUMBOTRON  */
