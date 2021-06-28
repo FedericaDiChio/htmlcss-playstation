@@ -167,10 +167,12 @@ main {
 
 /* FOOTER */
 footer li {
+    text-indent: 30px;
     padding-top: 5px;
 }
 
 footer li a{
+    
     text-decoration: none;
     color: white;
 }
@@ -178,6 +180,6 @@ footer li a{
 footer li a:hover {
     color: white;
     text-decoration: underline;
-}
+} 
 
 
