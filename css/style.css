@@ -85,6 +85,19 @@ main {
     box-shadow: 0 0 0 2px rgb(45, 100, 230);
 }   
 
+/* ICONS */ 
+.fa-registered {
+    font-size: 15px;
+    position: relative;
+    top: -15px;
+}
+
+/* .fa-trademark {
+    font-size: 8px;
+    position: relative;
+    top: -5px;
+} */
+
 
 /* NAVBAR */
 #nav-bottom a{
@@ -158,3 +171,4 @@ footer li a:hover {
     color: white;
     text-decoration: underline;
 }
+
