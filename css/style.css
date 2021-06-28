@@ -133,6 +133,13 @@ main {
     max-width: 50%;
 }
 
+/* RELEASE  */
+
+#new-release a{
+    text-decoration: none;
+    color: white;
+}
+
 
 /* SECTION PS4  */
 #accessories .col {
@@ -144,7 +151,8 @@ main {
 }
 
 #accessories .card:hover {
-    filter: brightness(100%);
+    filter: none;
+    transition: 1s;
 }
 
 #accessories .active:after {
@@ -162,7 +170,7 @@ footer li {
     padding-top: 5px;
 }
 
-footer li a {
+footer li a{
     text-decoration: none;
     color: white;
 }
@@ -171,4 +179,5 @@ footer li a:hover {
     color: white;
     text-decoration: underline;
 }
+
 
