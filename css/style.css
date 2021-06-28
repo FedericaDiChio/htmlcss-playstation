@@ -3,6 +3,7 @@ body {
     font-weight: 600;
 }
 
+
 main {
     padding-top: 100px;
 }
@@ -10,6 +11,14 @@ main {
 /* BACKGROUND COLOR  */
 .bg-black {
     background-color: black;
+}
+
+.bg-blue {
+    background-color: rgb(45, 100, 230);
+}
+
+.txt-blue {
+    color:rgb(45, 100, 230);
 }
 
 .bg-dark-blue {
@@ -28,8 +37,8 @@ main {
     background-color:rgb(205, 61, 15);
 }
 
-.my-pt {
-    padding-top: 200px;
+.b-radius {
+    border-radius: 15px;
 }
 
 /* NAVBAR */
@@ -38,7 +47,7 @@ main {
 }
 
 #nav-bottom a:hover {
-    color: blue;
+    color: rgb(45, 100, 230);
 }
 
 /* BUTTONS  */
@@ -53,6 +62,18 @@ main {
     box-shadow: 0 0 0 2px rgb(205, 61, 15);
 }
 
+/* EFFECTS ON THUMBS  */
+#games-thumbs img {
+    transition: 0.5s ease-in-out;
+}
+
+#games-thumbs img:hover {
+    transform: translateY(-10px);
+    border: 3px solid white;
+    box-shadow: 0 0 0 2px rgb(45, 100, 230);
+}   
+
+
 /* JUMBOTRON  */
 .jumbotron {
     background-size: cover;
@@ -62,6 +83,7 @@ main {
 
 #jumbo-one {
     background-image: url("../img/jumbo-bg.png");
+    padding-top: 250px;
 }
 
 #jumbo-two {
@@ -69,10 +91,6 @@ main {
 }
 
 
-/* IMG WIDTH  */
-.b-radius {
-     border-radius: 15px;
-}
 
 
 /*! SEZIONI URGENTI DA SISTEMARE */
@@ -83,9 +101,10 @@ main {
 */
 
 
-
+/*! DA ELIMINARE */
 footer {
     height: 300px;
     background-color: aqua;
 }
+
 
