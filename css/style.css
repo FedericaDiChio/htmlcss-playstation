@@ -113,6 +113,33 @@ main {
     max-width: 50%;
 }
 
+/* SECTION PS4  */
+
+#accessories .col {
+    max-width: 200px;
+}
+
+
+#accessories .card:not(.no-opacity) {
+    filter: opacity(50%);
+    /* transition: filter 3s ease-in-out; */
+}
+
+#accessories .card:hover {
+    filter: brightness(100%);
+}
+
+
+#accessories .active:after {
+    content:"";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: rgb(45, 100, 230);
+    margin: 30px 0;
+  
+}
+
 
 /* FOOTER */
 footer li {
@@ -129,12 +156,4 @@ footer li a:hover {
     text-decoration: underline;
 }
 
-
-
-/*! SEZIONI URGENTI DA SISTEMARE */
-/* 
-1. Blu chevron;
-2. rivedere BUTTON (scritta dentro centrata!!);
-4. Accessories PS4 -> non devono stare sulla stessa linea
-*/
 
