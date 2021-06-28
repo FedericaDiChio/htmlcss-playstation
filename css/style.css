@@ -3,10 +3,10 @@ body {
     font-weight: 600;
 }
 
-
 main {
     padding-top: 100px;
 }
+
 
 /* BACKGROUND COLOR  */
 .bg-black {
@@ -44,18 +44,6 @@ main {
     border-radius: 15px;
 }
 
-/* NAVBAR */
-#nav-bottom a{
-    color: black;
-}
-
-#nav-bottom a:hover {
-    color: rgb(45, 100, 230);
-}
-
-#nav-bottom .chevron {
-    width: 10px;
-}
 
 /* EFFECTS BUTTONS  */
 .my-btn-dark-grey:hover {
@@ -85,6 +73,7 @@ main {
     box-shadow: 0 0 0 2px white;
 }
 
+
 /* EFFECTS THUMBS  */
 #games-thumbs img {
     transition: 0.5s ease-in-out;
@@ -95,6 +84,20 @@ main {
     border: 3px solid white;
     box-shadow: 0 0 0 2px rgb(45, 100, 230);
 }   
+
+
+/* NAVBAR */
+#nav-bottom a{
+    color: black;
+}
+
+#nav-bottom a:hover {
+    color: rgb(45, 100, 230);
+}
+
+#nav-bottom .chevron {
+    width: 10px;
+}
 
 
 /* JUMBOTRON  */
@@ -117,22 +120,19 @@ main {
     max-width: 50%;
 }
 
-/* SECTION PS4  */
 
+/* SECTION PS4  */
 #accessories .col {
     max-width: 200px;
 }
 
-
 #accessories .card:not(.no-opacity) {
     filter: opacity(50%);
-
 }
 
 #accessories .card:hover {
     filter: brightness(100%);
 }
-
 
 #accessories .active:after {
     content:"";
@@ -141,7 +141,6 @@ main {
     width: 100%;
     background-color: rgb(45, 100, 230);
     margin: 30px 0;
-  
 }
 
 
