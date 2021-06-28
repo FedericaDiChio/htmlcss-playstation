@@ -53,6 +53,8 @@ main {
     color: rgb(45, 100, 230);
 }
 
+
+
 /* EFFECTS BUTTONS  */
 .my-btn-dark-grey:hover {
     border: 1px solid white;
@@ -155,5 +157,4 @@ footer li a:hover {
     color: white;
     text-decoration: underline;
 }
-
 
